@@ -67,9 +67,14 @@
           />
         </div>
 
-        <!-- Toggle button -->
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="ri-apps-2-line"></i>
+        <div class="nav__buttons">
+          <!-- Theme dark -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+          </div>
         </div>
       </nav>
     </header>
@@ -77,7 +82,7 @@
     <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
-      <section class="home section" id="home">
+      <section class="home section active-link" id="home">
         <div class="home__container container grid">
           <div class="home__data">
             <h1 class="home__title">
@@ -450,9 +455,12 @@
     </footer>
 
     <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
 
     <!--=============== SCROLLREVEAL ===============-->
-    <script src=""></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
